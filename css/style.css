@@ -1,0 +1,164 @@
+/* header */
+
+body{
+  background-color: black;
+  font-family: helvetica;
+  opacity: 0.9;
+  color: seashell;
+  margin: 0;
+}
+
+.header{
+  width: 100%;
+  height:69px;
+  position: fixed;
+  z-index: 2;
+  border-bottom: 1px solid seashell;
+  font-size: 22px;
+  font-family: helvetica;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: seashell;
+}
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+a:-webkit-any-link {
+    color: seashell;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Banner */
+
+#banner{
+  background-image: url(/Users/michaelulryck/Desktop/git-101/Codecademy_HTML/Tea_Cozy/img/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner-text{
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+}
+
+/* tea of the month */
+
+
+.section-tea{
+  height: 500px;
+  width: 1000px;
+  margin: 150px auto;
+}
+
+.teas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.headline{
+  text-align: center;
+}
+
+.tea-img{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.bottom-teas{
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* Location */
+
+.locations{
+  background-image: url(/Users/michaelulryck/Desktop/git-101/Codecademy_HTML/Tea_Cozy/img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.headline-locations{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 15px;
+
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+#box1{
+  margin-right: 40px;
+}
+
+#box2{
+  margin-right: 40px;
+}
+
+.headline-locations h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Footer */
+
+.contact{
+  text-align: center;
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  padding-left: 20px;
+}
